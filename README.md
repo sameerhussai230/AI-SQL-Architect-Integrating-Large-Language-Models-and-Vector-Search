@@ -53,20 +53,20 @@ streamlit run app.py
 This command launches the Streamlit interface in your browser where you can input queries and view SQL results along with visual data representations.
 
 ## Results
-###1 What is the total freight cost for each shipping method
+### 1 What is the total freight cost for each shipping method
 ![Screenshot 2024-06-23 155658](https://github.com/sameerhussai230/AI-SQL-Architect-Integrating-Large-Language-Models-and-Vector-Search/assets/85198601/a2b045c4-b98c-426a-8a48-525db9f27fee)
 
-###2 Who are the top 5 salespeople by total sales amount?
+### 2 Who are the top 5 salespeople by total sales amount?
 
 ![Screenshot 2024-06-23 155602](https://github.com/sameerhussai230/AI-SQL-Architect-Integrating-Large-Language-Models-and-Vector-Search/assets/85198601/b30a00de-de9f-41a1-931d-5bf668f39fbc)
 
-###3 Give the full names of top 5 customers responsible for the highest sales?
+### 3 Give the full names of top 5 customers responsible for the highest sales?
 ![Screenshot 2024-06-23 162237](https://github.com/sameerhussai230/AI-SQL-Architect-Integrating-Large-Language-Models-and-Vector-Search/assets/85198601/21247363-8f6e-4cfc-bd23-d8210bf02ca1)
 
-###4 How is the customer base distributed across different sales territories
+### 4 How is the customer base distributed across different sales territories
 ![Screenshot 2024-06-23 161431](https://github.com/sameerhussai230/AI-SQL-Architect-Integrating-Large-Language-Models-and-Vector-Search/assets/85198601/9d7350be-4c48-4d90-bfc4-27e6efc0e5ae)
 
-###5 How many sales orders are there per sales territory?
+### 5 How many sales orders are there per sales territory?
 ![Screenshot 2024-06-23 160939](https://github.com/sameerhussai230/AI-SQL-Architect-Integrating-Large-Language-Models-and-Vector-Search/assets/85198601/c1cc2ea7-a627-486f-8dff-e605af403005)
 
 
