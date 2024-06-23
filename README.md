@@ -2,7 +2,11 @@
 
 ## Project Overview
 
-The AI SQL Architect project is specifically designed for text to SQL generation using a sophisticated integration of large language models (LLMs) and vector search technologies. This system simplifies the process of translating natural language queries into executable SQL commands, enhancing the accessibility and efficiency of database interactions. The architecture is engineered to leverage state-of-the-art AI to understand and process user inputs, thereby automating the generation of SQL queries tailored to user needs. Below is a detailed explanation of the architectural diagram included in this repository:
+The AI SQL Architect project is specifically designed for text to SQL generation using a sophisticated integration of large language models (LLMs) and vector search technologies. This system simplifies the process of translating natural language queries into executable SQL commands, enhancing the accessibility and efficiency of database interactions. The architecture is engineered to leverage state-of-the-art AI to understand and process user inputs, thereby automating the generation of SQL queries tailored to user needs.
+
+The system is initially configured to work with the AdventureWorks database, a complex schema that supports a wide range of queries from simple data retrieval to complex joins and aggregations. It dynamically handles any new valid questions related to the database schema, performing complex join operations between multiple tables. Furthermore, it validates SQL queries to ensure accuracy and compliance with SQL standards. Upon generating the SQL, the system can rephrase the query results into a more understandable format and visually represent data insights through interactive Plotly charts.
+
+Importantly, while AI SQL Architect is optimized for the AdventureWorks database, it possesses the flexibility to be aligned with different and complex databases as required. This adaptability makes it a versatile tool for organizations that may need to integrate this technology with various database schemas for different use cases. Below is a detailed explanation of the architectural diagram included in this repository:
 
 ![Architectural Diagram](https://github.com/sameerhussai230/AI-SQL-Architect-Integrating-Large-Language-Models-and-Vector-Search/assets/85198601/4c624170-1bdb-40a6-a031-3891a487080d)
 
