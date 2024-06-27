@@ -6,8 +6,6 @@ import logging
 import pyodbc
 import os
 from groq import Groq
-from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import sqlparse
 import pandas as pd
@@ -119,8 +117,8 @@ def get_json_output(llm_response):
     return False, "Response format is incorrect or unexpected."
 
 def execute_sql_query(query):
-    server = "LAPTOP-QDGN3JJ8"
-    database = "AdventureWorks"
+    server = ""
+    database = ""
     conn_str = (
         f"Driver={{SQL Server}};"
         f"Server={server};"
