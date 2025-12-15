@@ -36,7 +36,7 @@ Follow these steps to get started with the AI SQL Architect:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/AI-SQL-Architect-Integrating-Large-Language-Models-and-Vector-Search.git
+   git clone https://github.com/sameerhussai230/AI-SQL-Architect-Integrating-Large-Language-Models-and-Vector-Search.git
    ```
 2. Navigate to the project directory:
    ```bash
