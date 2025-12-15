@@ -1,6 +1,6 @@
 # AI SQL Architect: Integrating Large Language Models and Vector Search
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red) ![LLM](https://img.shields.io/badge/AI-Groq%20API%20%7C%20Vector%20Search-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red) ![LLM](https://img.shields.io/badge/AI-Groq%20API%20%7C%20Vector%20Search-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## 🚀 Project Overview
 
