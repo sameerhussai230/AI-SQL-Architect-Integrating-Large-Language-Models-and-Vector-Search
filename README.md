@@ -1,25 +1,34 @@
 # AI SQL Architect: Integrating Large Language Models and Vector Search
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue) ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red) ![LLM](https://img.shields.io/badge/AI-Groq%20API%20%7C%20Vector%20Search-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-The AI SQL Architect project is specifically designed for text to SQL generation using a sophisticated integration of large language models (LLMs) and vector search technologies. This system simplifies the process of translating natural language queries into executable SQL commands, enhancing the accessibility and efficiency of database interactions. The architecture is engineered to leverage state-of-the-art AI to understand and process user inputs, thereby automating the generation of SQL queries tailored to user needs.
+## 🚀 Project Overview
 
-The system is initially configured to work with the AdventureWorks database, a complex schema that supports a wide range of queries from simple data retrieval to complex joins and aggregations. It dynamically handles any new valid questions related to the database schema, performing complex join operations between multiple tables. Furthermore, it validates SQL queries to ensure accuracy and compliance with SQL standards. Upon generating the SQL, the system can rephrase the query results into a more understandable format and visually represent data insights through interactive Plotly charts.
+The **AI SQL Architect** project is specifically designed for **Text-to-SQL generation** using a sophisticated integration of Large Language Models (LLMs) and Vector Search technologies. This system simplifies the process of translating natural language queries into executable SQL commands, enhancing the accessibility and efficiency of database interactions. The architecture is engineered to leverage state-of-the-art AI to understand and process user inputs, thereby automating the generation of SQL queries tailored to user needs.
 
-Importantly, while AI SQL Architect is optimized for the AdventureWorks database, it possesses the flexibility to be aligned with different and complex databases as required. This adaptability makes it a versatile tool for organizations that may need to integrate this technology with various database schemas for different use cases. Below is a detailed explanation of the architectural diagram included in this repository:
+### 🌟 Key Capabilities
+*   **Complex Query Handling:** Initially configured with the **AdventureWorks** database, the system handles simple retrievals to complex joins and aggregations.
+*   **Dynamic Adaptation:** It dynamically processes new, valid questions regarding the schema and performs complex operations between multiple tables.
+*   **Validation & Visualization:** The system validates SQL accuracy, rephrases results into natural language, and visualizes insights using interactive **Plotly charts**.
+*   **Database Agnostic:** While optimized for AdventureWorks, the architecture is flexible and can be aligned with various complex database schemas for different organizational use cases.
+
+---
+
+### 🏗️ System Architecture
+
+Below is a detailed workflow of the system, illustrating how user inputs are transformed into visual insights.
 
 ![Architectural Diagram](https://github.com/sameerhussai230/AI-SQL-Architect-Integrating-Large-Language-Models-and-Vector-Search/assets/85198601/4c624170-1bdb-40a6-a031-3891a487080d)
 
-1. **User Question Input**: The entry point where users input their natural language queries.
-2. **Query Question Collection**: This component utilizes vector search to identify relevant previously asked questions that align with the user's input.
-3. **Query Schema Collection**: Retrieves schema information that corresponds to the user's query to ensure generated SQL queries are contextually appropriate.
-4. **SQL Queries and Schema Information Retrieval**: Extracts necessary SQL queries and schema details from the database to aid in accurate SQL generation.
-5. **Generate Prompt**: Constructs a detailed prompt from the retrieved information for the LLM.
-6. **LLM using Groq API**: Processes the comprehensive prompt to generate precise SQL queries.
-7. **SQL Server Query Generation**: Outputs the SQL query tailored to the user's request for execution.
-8. **Results Processing & Visualization**: Manages the execution of SQL queries and visualizes the results through data frames and Plotly charts, displayed using Streamlit.
-9. **Vector Database Initialization**: Involves the initial setup of the vector database, which is required only once to facilitate the querying process.
-
+1.  **User Question Input:** The entry point where users input their natural language queries.
+2.  **Query Question Collection:** Utilizes **Vector Search** to identify relevant previously asked questions that align with the user's input.
+3.  **Query Schema Collection:** Retrieves schema information corresponding to the user's query to ensure generated SQL is contextually appropriate.
+4.  **SQL & Schema Retrieval:** Extracts necessary SQL queries and schema details from the database to aid in accurate generation.
+5.  **Generate Prompt:** Constructs a detailed, context-aware prompt from the retrieved information for the LLM.
+6.  **LLM (Groq API):** Processes the comprehensive prompt to generate precise SQL queries.
+7.  **SQL Server Execution:** Outputs and runs the SQL query tailored to the user's request.
+8.  **Results & Visualization:** Manages the execution, processes the data into DataFrames, and renders **Plotly charts** via the **Streamlit** interface.
+9.  **Vector DB Initialization:** Handles the one-time setup of the vector database to facilitate the querying process.
 
 ## Installation
 
